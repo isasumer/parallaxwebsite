@@ -33,13 +33,15 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: lightblue;
     padding: 15px 15px;
     background-color: #575757;
     font-size: 27px;
     font-family: Helvetica, sans-serif;
     letter-spacing: 8px;
     font-weight: 700;
+    border-radius: 15px;
+    outline: 5px solid rgb(168, 15, 15);
 }
 
 #image2 {
@@ -98,9 +100,11 @@
     text-align: center;
     line-height: 80px;
 }
+
 #two p {
     line-height: 28px;
 }
+
 #three {
     /* height: 40%; */
     padding: 30px 40px 50px;
@@ -116,6 +120,13 @@
     text-align: center;
     line-height: 80px;
 }
+
 #three p {
     line-height: 28px;
+}
+
+#c8280halil {
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 40px;
+    padding-left: 60px;
 }
