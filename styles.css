@@ -20,7 +20,7 @@
     background-position: center;
     background-attachment: fixed;
     height: 100%;
-    opacity: 0.7;
+    opacity: 0.7; */
 }
 
 #image1 {
@@ -28,7 +28,7 @@
 }
 
 #parallax,
-#c8280halil {
+#isa {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -40,7 +40,7 @@
     font-family: Helvetica, sans-serif;
     letter-spacing: 8px;
     font-weight: 700;
-    border-radius: 15px;
+    border-radius: 40px;
     outline: 5px solid rgb(168, 15, 15);
 }
 
@@ -50,10 +50,10 @@
 
 #imagetwotext,
 #imagethreetext {
-    position: absolute;
+    position: absolute; 
     top: 69%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
     color: white;
     font-size: 27px;
     font-family: Helvetica, sans-serif;
@@ -70,41 +70,34 @@
 
 #one {
     height: 45%;
-    padding: 30px 40px 0;
+    padding: 30px 40px;
     position: absolute;
     top: 0;
     background-color: white;
-    z-index: 11;
+    z-index: 1;
 }
 
-#one h1 {
+#one h1,
+#two h1,
+#three h1  {
     text-align: center;
     line-height: 80px;
 }
 
-#one p {
+#one p,
+#two p,
+#three p {
     line-height: 28px;
 }
-
 #two {
     height: 40%;
     padding: 30px 40px 0;
     position: absolute;
     top: 0;
-    background-color: #282E34;
+    background-color: #3c4b5a;
     color: white;
-    z-index: 11;
+    z-index: 1;
 }
-
-#two h1 {
-    text-align: center;
-    line-height: 80px;
-}
-
-#two p {
-    line-height: 28px;
-}
-
 #three {
     /* height: 40%; */
     padding: 30px 40px 50px;
@@ -116,16 +109,7 @@
     color: white;
 }
 
-#three h1 {
-    text-align: center;
-    line-height: 80px;
-}
-
-#three p {
-    line-height: 28px;
-}
-
-#c8280halil {
+#isa {
     font-family: 'Nunito', sans-serif;
     letter-spacing: 40px;
     padding-left: 60px;
